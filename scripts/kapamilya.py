@@ -40,7 +40,7 @@ print('#EXT-X-INDEPENDENT-SEGMENTS')
 
 print(banner)
 #s = requests.Session()
-with open('../kapamilya.txt') as f:
+with open('./kapamilya.txt') as f:
     for line in f:
         line = line.strip()
         if not line or line.startswith('~~'):
